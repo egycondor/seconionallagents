@@ -1,0 +1,8 @@
+osquery_flag windows_event_channels=System,Application,Security,Microsoft-Windows-Sysmon/Operational
+enroll_secret_path C:\Program Files\Kolide\Launcher-so-launcher\conf\secret
+hostname 10.0.0.252:8090
+root_directory C:\Program Files\Kolide\Launcher-so-launcher\data
+osqueryd_path C:\Program Files\Kolide\Launcher-so-launcher\bin\osqueryd
+root_pem C:\Program Files\Kolide\Launcher-so-launcher\conf\roots.pem
+autoupdate
+update_channel stable
